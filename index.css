@@ -1,0 +1,165 @@
+body {
+    background-color: black
+}
+
+.container {
+    display: grid;
+    text-align: center;
+    height: 110vh;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.kiri {
+    background-color: magenta;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    /* height: 80vh; */
+    background-image: url('./assets/pix.jpg')
+}
+.kiri h3 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.kiri h2 {
+    font-family: 'Archivo Black', sans-serif;
+    color: rgb(255, 250, 250);
+}
+
+.kiri h5 {
+    font-family: 'Archivo Black', sans-serif;
+    color: rgb(255, 250, 250);
+}
+.bawah {
+    /* top: 47.5vh; */
+    /* width: 40vh; */
+    position: fixed;
+    top: 50%;
+    padding: 2vh;
+    background-color: rgb(61, 82, 138);
+    border-radius: 20px;
+}
+
+.muka {
+    margin: 5%;
+    background-color: magenta;
+    border-radius: 20px;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+}
+
+.tengah {
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    /* top: 10%; */
+    font-family: 'Archivo Black', sans-serif;
+    color: rgb(60, 66, 78);
+}
+
+.choice p{
+   font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+
+#chosen{
+    color: magenta;
+}
+
+.kanan {
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    /* top: 5%; */
+}
+
+.pics img{
+    border-radius: 20px;
+}
+
+.adv p{
+    color: rgb(60, 66, 78);
+   
+}
+
+.seeAll p{
+    font-family: 'Raleway', sans-serif;
+    color: magenta;
+}
+
+.icons img{
+    border-radius: 20px;
+    background-color: rgb(238, 238, 199);
+        max-width: 70%;
+        width: auto;
+    
+}
+
+.icons p{
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    font-size: 70%;
+}
+
+.bot{
+    top: 70%;
+}
+.bot img{
+    max-width: 40%;
+    width: auto;
+}
+
+.exp{
+    font-family: 'Raleway', sans-serif;
+    color: magenta;
+}
+
+.filler{
+    color: white;
+}
+
+.fuji img{
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.like img{
+    max-width: 70%;
+    width: auto;
+}
+
+.destin h4{
+    color: rgb(60, 66, 78);
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.icn img{
+    max-width: 30%;
+    width: auto;
+}
+
+.icn p{
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    font-size: 90%;
+}
+
+.destin p {
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    font-size: 90%;
+    text-align: left;
+}
+
+.fujis img{
+    border-radius: 15px;
+    max-height: 100%;
+    width: auto;
+}
